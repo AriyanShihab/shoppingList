@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping List</title>
+    <!-- csss -->
+    <link rel="stylesheet" href="./style/style.css" />
+</head>
+
+<body>
+    <div class="continer">
+        <div class="inro">
+            <h4 class="predifine" id="select">
+                Select Pre Define Items (click on it)
+            </h4>
+            <ul class="coustomSelect" id="ul">
+                <li>Bakery and Bread <span>🍩</span></li>
+                <li>Meat and Seafood <span>🍖</span></li>
+                <li>Pasta and Rice <span>🍛</span></li>
+                <li>Sweet gourd <span>🧀</span></li>
+                <li>Bottle gourd <span>🥤</span></li>
+
+                <li>Wax gourd <span>🥫</span></li>
+                <li>Coconut <span>🥥</span></li>
+                <li>Mango <span>🥭</span></li>
+                <li>Juce <span>🍹</span></li>
+                <li>Soft Drink 🥂</li>
+                <li>Banana <span>🍌</span></li>
+                <li>Pizza <span>🍘</span></li>
+            </ul>
+        </div>
+        <div class="wrapper">
+            <!-- input area -->
+            <div class="inputs">
+                <form action="#" id="form" class="forms">
+                    <input id="item" type="text" placeholder="Type Your  Sopping Item" />
+                    <input id="quantiy" type="text" placeholder="Type Quantity" />
+                    <input id="note" type="text" placeholder=" Short Note (optional)" />
+                    <button type="submit" id="submitBtn" class="btn">Add items</button>
+                </form>
+            </div>
+
+            <!-- content -->
+            <div id="content"></div>
+            <div id="edit"></div>
+
+            <p class="rr">Your complited Items will Aappeare Here</p>
+            <div id="complite"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Developed by <a href="https://github.com/AriyanShihab">Ariyan</a></p>
+    </footer>
+
+    <script src="./script/app.js"></script>
+</body>
+
+</html>
